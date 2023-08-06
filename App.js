@@ -11,21 +11,23 @@ import Nine from "./components/nine/Nine.js";
 import Ten from "./components/ten/Ten.js";
 import { View } from "react-native";
 import Eleven from "./components/eleven/Eleven.js";
+import Twelve from "./components/twelve/Twelve.js";
 
 
-export default function App(){
-  return <View style={{padding: 60, flex: 1}}>
+export default function App() {
+  return <View style={{ padding: 60, flex: 1 }}>
     {/* <Sample></Sample> */}
-{/* <Second></Second> */}
-{/* <Third></Third> */}
-{/* <Fourth></Fourth> */}
-{/* <Fifth></Fifth> */}
-{/* <Sixth></Sixth> */}
-{/* <Seventh></Seventh> */}
-{/* <Eigth></Eigth> */}
-{/* <Nine></Nine> */}
-{/* <Ten></Ten> */}
-<Eleven name="Batman!"></Eleven>
-<Eleven name="Superman!"></Eleven>
+    {/* <Second></Second> */}
+    {/* <Third></Third> */}
+    {/* <Fourth></Fourth> */}
+    {/* <Fifth></Fifth> */}
+    {/* <Sixth></Sixth> */}
+    {/* <Seventh></Seventh> */}
+    {/* <Eigth></Eigth> */}
+    {/* <Nine></Nine> */}
+    {/* <Ten></Ten> */}
+    {/* <Eleven name="Batman!"></Eleven> */}
+    {/* <Eleven name="Superman!"></Eleven> */}
+    <Twelve></Twelve>
   </View>
 }
