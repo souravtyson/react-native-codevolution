@@ -13,10 +13,11 @@ import { View } from "react-native";
 import Eleven from "./components/eleven/Eleven.js";
 import Twelve from "./components/twelve/Twelve.js";
 import Thirteen from "./components/thirteen/Thirteen.js";
+import Fourteen from "./components/fourteen/Fourteen.js";
 
 
 export default function App() {
-  return <View style={{ padding: 60, flex: 1 }}>
+  return <View style={{ flex: 1, padding: 10 }}>
     {/* <Sample></Sample> */}
     {/* <Second></Second> */}
     {/* <Third></Third> */}
@@ -30,6 +31,7 @@ export default function App() {
     {/* <Eleven name="Batman!"></Eleven> */}
     {/* <Eleven name="Superman!"></Eleven> */}
     {/* <Twelve></Twelve> */}
-    <Thirteen></Thirteen>
+    {/* <Thirteen></Thirteen> */}
+    <Fourteen></Fourteen>
   </View>
 }

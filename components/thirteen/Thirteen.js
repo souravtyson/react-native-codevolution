@@ -5,13 +5,13 @@ import { View, Text, StyleSheet } from "react-native";
 const Thirteen = () => {
     return (
         <>
-        <View style={[styles.divContainer, styles.androidElevationShadow]}>
-            <Text style={styles.textDiv}>Hello Shadow & Elevation</Text>
-        </View>
-                <View style={[styles.divContainer, styles.iosShadow]}>
+            <View style={[styles.divContainer, styles.androidElevationShadow]}>
                 <Text style={styles.textDiv}>Hello Shadow & Elevation</Text>
             </View>
-            </>
+            <View style={[styles.divContainer, styles.iosShadow]}>
+                <Text style={styles.textDiv}>Hello Shadow & Elevation</Text>
+            </View>
+        </>
     )
 }
 
@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
         marginVertical: 10
     },
     androidElevationShadow: {
-        elevation: 70
+        elevation: 20,
+        shadowColor: "blue"
     },
     textDiv: {
         color: "black"
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
             width: 6,
             height: 6
         },
-        shadowOpacity: 0.6,
+        shadowOpacity: 1,
         shadowRadius: 4
     }
 })
