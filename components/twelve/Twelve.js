@@ -6,7 +6,7 @@ const Twelve = () => {
             <Text>This is light blue color</Text>
         </View>
         <View style={[styles.containerCommon, styles.bgColorGreen]}>
-            <Text>This is light green color</Text>
+            <Text style={styles.textFont}>This is light green color</Text>
         </View>
     </>
     )
@@ -20,13 +20,21 @@ const styles = StyleSheet.create({
         paddingHorizontal: 10,
         paddingLeft: 20,
         paddingRight: 20,
-        paddingVertical: 20
+        paddingVertical: 20,
+        marginVertical:10,
+        borderWidth: 2,
+        borderColor: "purple",
+        borderStyle: "solid",
+        borderRadius: 20
     },
     bgColorBlue: {
         backgroundColor: 'lightblue'
     },
     bgColorGreen: {
         backgroundColor: 'lightgreen'
+    },
+    textFont:{
+        fontSize: 10
     }
 })
 

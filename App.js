@@ -12,6 +12,7 @@ import Ten from "./components/ten/Ten.js";
 import { View } from "react-native";
 import Eleven from "./components/eleven/Eleven.js";
 import Twelve from "./components/twelve/Twelve.js";
+import Thirteen from "./components/thirteen/Thirteen.js";
 
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
     {/* <Ten></Ten> */}
     {/* <Eleven name="Batman!"></Eleven> */}
     {/* <Eleven name="Superman!"></Eleven> */}
-    <Twelve></Twelve>
+    {/* <Twelve></Twelve> */}
+    <Thirteen></Thirteen>
   </View>
 }
